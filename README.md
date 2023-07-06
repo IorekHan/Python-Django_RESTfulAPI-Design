@@ -5,6 +5,7 @@
 2. Please pip install all packages shown in the requirements.txt.
 3. For more details about Django REST framework, please see [DRF doc]: www.django-rest-framework.org/#installation
 
+<br>
 ## Serialize
 Serializing is to convert Django model data type to a readable type for front-end, like JSON, XML and so on.
 
