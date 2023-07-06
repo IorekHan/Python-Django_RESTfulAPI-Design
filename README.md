@@ -11,18 +11,18 @@ Serializing is to convert Django model data type to a readable type for front-en
 Here's an example to serialize Character class in Django sqlite3 database to JSON type:
 * Go to your Django root dir in cmd and type the following to enter the Django console (if you are using PyCharm, you can directly open this console):
 
-  '''
+```cmd
   python manage.py shell
-  '''
+```
 
 * In the opened shell (still the cmd, but you are in the shell now), type:
-'''python
+```python
 >>> from drf_restapi.models import Character
 >>> from django.core import serializers
 >>> serializers.serialize('json', Character.objects.all())
-'''
+```
 * With my test data, I get:
-'''
+```
 '[{"model": "drf_restapi.character", "pk": 1, "fields": {"name": "Gary", "intro": "Test Charac", "level": "1", "health": "100", "attack": "10.00", "createdAt": "2023-07-06T05:19:34.133Z", "chaClass": 1}}]'
-'''
+```
  
