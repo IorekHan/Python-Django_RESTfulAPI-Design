@@ -1,5 +1,5 @@
-# Python-Django_RESTfulAPI-Design
-
+# Python-Django_DRF-Django-Rest-Framework_RESTfulAPI-Design
+### Django-Rest-Framework is the package for Django to design RESTful API.
 <br>
 
 ## Requirements
@@ -29,4 +29,4 @@ Here's an example to serialize Character class in Django sqlite3 database to JSO
 ```
 '[{"model": "drf_restapi.character", "pk": 1, "fields": {"name": "Gary", "intro": "Test Charac", "level": "1", "health": "100", "attack": "10.00", "createdAt": "2023-07-06T05:19:34.133Z", "chaClass": 1}}]'
 ```
- 
+* In a Django App, you will need ```serializers.py``` in the root dir of that app, like in this project.
