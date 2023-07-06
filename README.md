@@ -1,6 +1,6 @@
 # Python-Django_DRF-Django-Rest-Framework_RESTfulAPI-Design
 ### Django-Rest-Framework is the package for Django to design RESTful API.
-### This project showed how to use the DRF.
+### This project shows how to use the DRF.
 <br>
 
 ## Requirements
