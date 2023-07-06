@@ -18,7 +18,7 @@ In the application, we use DRF serializer to realize this function. Serializers 
 from rest_framework import serializers
 ```
 
-As a sealed function may not explain what it does, here's an example to show how serializer work on Character class in Django sqlite3 database to JSON type:
+As a sealed function, it may not explain what it does in ```serializers.py```. So, here's an example to show how serializer work on Character class in Django sqlite3 database to JSON type:
 * Go to your Django root dir in cmd and type the following to enter the Django console (if you are using PyCharm, you can directly open this console):
 
 ```cmd
