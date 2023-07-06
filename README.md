@@ -11,9 +11,14 @@
 <br>
 
 ## Serialize
-Serializing is to convert Django model data type to a readable type for front-end, like JSON, XML and so on.
+Serializing is to convert Django model data type to a readable type for front-end, like JSON, XML and so on. The reverse of serialization will convert a input data to a reasonable formay in Django database.
 
-Here's an example to serialize Character class in Django sqlite3 database to JSON type:
+In the application, we use DRF serializer to realize this function. Serializers are sealed in DRF package, you can import it with:
+```python
+from rest_framework import serializers
+```
+
+As a sealed function may not explain what it does, here's an example to show how serializer work on Character class in Django sqlite3 database to JSON type:
 * Go to your Django root dir in cmd and type the following to enter the Django console (if you are using PyCharm, you can directly open this console):
 
 ```cmd
