@@ -31,8 +31,34 @@ As a sealed function, it may not explain what it does in ```serializers.py```. S
 >>> from django.core import serializers
 >>> serializers.serialize('json', Character.objects.all())
 ```
+
+
 * With my test data, I get:
 ```
 '[{"model": "drf_restapi.character", "pk": 1, "fields": {"name": "Gary", "intro": "Test Charac", "level": "1", "health": "100", "attack": "10.00", "createdAt": "2023-07-06T05:19:34.133Z", "chaClass": 1}}]'
 ```
 * In a Django App, you will need ```serializers.py``` in the root dir of that app, like in this project.
+
+
+<br>
+
+# Api_view
+You can use api_view to deal with GET, POST or other requests with serializer to mulnipulate the database, following is a POST to add data to Django databse, at ```localhost/character/fbv/lst/```:
+```
+POST /character/fbv/lst/
+HTTP 201 Created
+Allow: GET, POST, OPTIONS
+Content-Type: application/json
+Vary: Accept
+
+{
+    "id": 2,
+    "name": "Lucian",
+    "intro": "Test Charac",
+    "level": "10",
+    "health": "300",
+    "attack": "30.00",
+    "createdAt": "2023-07-07T03:15:17.569816Z",
+    "chaClass": 1
+}
+```
