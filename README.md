@@ -2,6 +2,8 @@
 ### Django-Rest-Framework is the package for Django to design RESTful API.
 ### This project shows how to use the DRF.
 <br>
+### Following steps: Going to use POSTMAN to test API.
+<br>
 
 ## Requirements
 1. You need a Python environment for this project.
