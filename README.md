@@ -101,4 +101,12 @@ to realize authentication.
 * Token auth is a common useful authentication method. Django will automatically generate a token with the project when it's started.
 
 ## DRF Token Authorization
-* 
+* To use DRF token auth, you need to put it in installed_app in settings.py
+  ```python
+  INSTALLED_APPS = [
+    ...,
+    'rest_framework.authtoken', # DRF token authentication
+    ...,
+  ]
+  ```
+*
