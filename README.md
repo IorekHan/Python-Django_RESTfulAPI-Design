@@ -3,6 +3,8 @@
 ### This project shows how to use the DRF with a Character model, with pk, fk and other normal fields.
 <br>
 
+### The schema of this API is uploaded to this repo as 'API doc.pdf'.
+
 <br>
 
 # Requirements
@@ -114,16 +116,3 @@ to realize authentication.
   python manage.py drf_create_token admin
   ```
 <br>
-
-# API SCHEMA
-* To use DRF API schema, you need to add it to setting.py
-```python
-REST_FRAMEWOR = {
-  ...,
-     'DEFAULT_SCHEMA_CLASS':'rest_framework.schemas.AutoSchema',
-    ...,
-```
-* The online schema for this preject is at
-```url
-  localhost/schema/
-```
