@@ -13,13 +13,9 @@
 3. For more details about Django REST framework, please see [DRF doc]: www.django-rest-framework.org/#installation
 4. To run Django server:
     * Go to Django project root dir in cmd
-    * Type
-      ```cmd
-      python manage.py runserver
-      ```
-      to start the server.
-   If needed migrate/migrations:
-    * Type
+    * Type```python manage.py runserver```to start the server.
+      
+   If needed migrate/migrations, type
       ```cmd
       python manage.py makemigrations
       ```
