@@ -5,14 +5,14 @@
 
 <br>
 
-## Requirements
+# Requirements
 1. You need a Python environment for this project.
 2. Please pip install all packages shown in the requirements.txt.
 3. For more details about Django REST framework, please see [DRF doc]: www.django-rest-framework.org/#installation
 
 <br>
 
-## Serializer
+# Serializer
 Serializing is to convert Django model data type to a readable type for front-end, like JSON, XML and so on. The reverse of serialization will convert a input data to a reasonable formay in Django database.
 
 In the application, we use DRF serializer to realize this function. Serializers are sealed in DRF package, you can import it with:
