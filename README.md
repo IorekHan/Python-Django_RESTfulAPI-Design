@@ -1,6 +1,6 @@
 # Python-Django_DRF-Django-Rest-Framework_RESTfulAPI-Design
 ### Django-Rest-Framework is the package for Django to design RESTful API.
-### This project shows how to use the DRF.
+### This project shows how to use the DRF with a Character model, with pk, fk and other normal fields.
 <br>
 ### Following steps: Going to use POSTMAN to test API.
 <br>
@@ -45,6 +45,8 @@ As a sealed function, it may not explain what it does in ```serializers.py```. S
 <br>
 
 # Api_view
+You have multiple ways to write API views. Following is one of the most basic one, I'll use it as an example here, you can access all other ways' details after the example.
+
 You can use api_view to deal with GET, POST or other requests with serializer to mulnipulate the database, following is a POST to add data to Django databse, at ```localhost/character/fbv/lst/```:
 ```
 POST /character/fbv/lst/
@@ -64,3 +66,17 @@ Vary: Accept
     "chaClass": 1
 }
 ```
+
+<br>
+
+
+| View Style | request.method | URL |
+|:---------:|:---------:|:---------:|
+| Function Based View | GET/POST | localhost/fbv/lst/ |
+| Function Based View | GET/PUT/DELETE/... | localhost/fbv/detail/<int:pk>/ |
+| Class Based View | GET/POST | localhost/cbv/lst/ |
+| Class Based View | GET/PUT/DELETE/... | localhost/cbv/lst/<int:pk>/ |
+| Genetic Class Based View | GET/POST | localhost/gcbv/lst/ |
+| Genetic Class Based View | GET/PUT/DELETE/... | localhost/gcbv/lst/<int:pk>/ |
+| DRF Viewsets | ALL | localhost/viewsets/method(/<int:pk>/) |
+
