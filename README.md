@@ -80,3 +80,6 @@ Vary: Accept
 | Genetic Class Based View | GET/PUT/DELETE/... | localhost/gcbv/lst/<int:pk>/ |
 | DRF Viewsets | ALL | localhost/viewsets/method(/<int:pk>/) |
 
+<br>
+<br>
+# AUTHENTICATION
