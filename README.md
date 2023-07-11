@@ -99,3 +99,6 @@ to realize authentication.
 * Basic auth is just for testing, not for production environment.
 * Session auth is used when using methods that will activate session, which is a temporary user info on the web server side.
 * Token auth is a common useful authentication method. Django will automatically generate a token with the project when it's started.
+
+## DRF Token Authorization
+* 
