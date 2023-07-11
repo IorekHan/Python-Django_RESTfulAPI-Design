@@ -109,4 +109,7 @@ to realize authentication.
     ...,
   ]
   ```
-*
+* To create a DRF token manully, type the following in cmd at Django project root dir
+  ```cmd
+  python manage.py drf_create_token admin
+  ```
