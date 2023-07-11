@@ -113,3 +113,13 @@ to realize authentication.
   ```cmd
   python manage.py drf_create_token admin
   ```
+<br>
+
+# API SCHEMA
+* To use DRF API schema, you need to add it to setting.py
+```python
+REST_FRAMEWOR = {
+  ...,
+     'DEFAULT_SCHEMA_CLASS':'rest_framework.schemas.AutoSchema',
+    ...,
+```
