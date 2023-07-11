@@ -123,3 +123,7 @@ REST_FRAMEWOR = {
      'DEFAULT_SCHEMA_CLASS':'rest_framework.schemas.AutoSchema',
     ...,
 ```
+* The online schema for this preject is at
+```url
+  localhost/schema/
+```
