@@ -16,7 +16,8 @@
     * Type
       ```cmd
       python manage.py runserver
-      ``` to start the server.
+      ```
+      to start the server.
    If needed migrate/migrations:
     * Type
       ```cmd
