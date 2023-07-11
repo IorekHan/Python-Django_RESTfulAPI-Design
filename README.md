@@ -2,7 +2,7 @@
 ### Django-Rest-Framework is the package for Django to design RESTful API.
 ### This project shows how to use the DRF with a Character model, with pk, fk and other normal fields.
 <br>
-### Following steps: Going to use POSTMAN to test API.
+
 <br>
 
 ## Requirements
@@ -12,7 +12,7 @@
 
 <br>
 
-## Serialize
+## Serializer
 Serializing is to convert Django model data type to a readable type for front-end, like JSON, XML and so on. The reverse of serialization will convert a input data to a reasonable formay in Django database.
 
 In the application, we use DRF serializer to realize this function. Serializers are sealed in DRF package, you can import it with:
@@ -82,4 +82,5 @@ Vary: Accept
 
 <br>
 <br>
+
 # AUTHENTICATION
