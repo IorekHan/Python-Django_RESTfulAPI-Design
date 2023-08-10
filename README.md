@@ -10,7 +10,7 @@
 # Table of Contents
 - [Requirements](#requirements)
 - [Serializer](#serializer)
-- [Api_view](#api_view)
+- [API_view](#api_view)
 - [AUTHENTICATION](#authentication)
   - [Basic Way](#basic-way)
   - [DRF Token Authorization](#drf-token-authorization)
